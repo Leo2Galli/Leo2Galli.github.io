@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Il mio portafolio">
+  <title>Portfolio di Nome Cognome</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    section {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Portfolio di Nome Cognome</h1>
+    <p>Sviluppatore web | Designer | Programmatore</p>
+  </header>
+
+  <section>
+    <h2>Chi sono</h2>
+    <p>Sono un sviluppatore appassionato di tecnologia e innovazione, con esperienza in diversi linguaggi di programmazione e framework.</p>
+  </section>
+
+  <section>
+    <h2>Progetti</h2>
+    <ul>
+      <li><a href="https://github.com/username/progetto1">Progetto 1</a> - Descrizione del progetto 1.</li>
+      <li><a href="https://github.com/username/progetto2">Progetto 2</a> - Descrizione del progetto 2.</li>
+      <li><a href="https://github.com/username/progetto3">Progetto 3</a> - Descrizione del progetto 3.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contatti</h2>
+    <p>Email: nomecognome@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tuonome">https://www.linkedin.com/in/tuonome</a></p>
+  </section>
+
+  <footer>
+    <p>Copyright © 2024 Nome Cognome</p>
+  </footer>
+
+</body>
+</html>
